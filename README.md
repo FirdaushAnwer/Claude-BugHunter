@@ -314,7 +314,7 @@ The per-class `hunt-*` skills address gap-zero (*"what should I look for in weba
 
 Operational tradecraft accumulated across bug-bounty engagements and authorized pentests, codified into Claude skills. Platform-agnostic — slot into any engagement workflow you already use, or none.
 
-**Author:** [ElementalSoul](https://github.com/elementalsouls) · GenAI Security Research
+**Author:** [ElementalSoul](https://github.com/elementalsouls) · GenAI Security Researc
 
 **Sister project:** [Claude-OSINT](https://github.com/elementalsouls/Claude-OSINT) — paired skills for the recon phase that this bundle picks up after. Its two recon skills (`offensive-osint`, `osint-methodology`) are **canonically maintained here** and re-exported there, so the two are byte-identical. **Installing both is safe:** each bundle's installer (`install.sh` on macOS/Linux, `install.ps1` on Windows) records a manifest, the script skips re-copying an identical skill, and `--uninstall` keeps any skill the other bundle still owns — uninstalling one never breaks the other.
 
